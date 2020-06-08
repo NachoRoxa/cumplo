@@ -36,6 +36,7 @@ class Graph extends Component {
         >
           <XAxis dataKey='name' />
           <YAxis />
+          <Tooltip />
           <CartesianGrid strokeDasharray='3 3'/>
           <Legend />
           <Line type='monotone' />
